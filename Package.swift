@@ -14,13 +14,13 @@ let package = Package(
     ],
     
     products: [
-        .library(name: "XMPP", targets: ["XMPP"]),
+        .library(name: "XMPP",  type: .dynamic, targets: ["XMPP"]),
         .executable(name: "XMPPDemo", targets: ["XMPPDemo"]),
     ],
     
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.0.0"),
-        .package(url: "https://github.com/apple/swift-nio-ssl.git", from: "2.0.0"),
+        .package(url: "https://github.com/Guang1234567/swift-nio.git", .branch("master")),
+        .package(url: "https://github.com/Guang1234567/swift-nio-ssl.git", .branch("master")),
     ],
     
     targets: [

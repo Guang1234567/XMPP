@@ -6,7 +6,7 @@
 //  Copyright © 2018-2019 ProcessOne. All rights reserved.
 //
 
-#if os(Linux)
+#if os(Linux) || os(Android)
 import Foundation
 import NIO
 import NIOSSL

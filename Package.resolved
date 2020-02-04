@@ -3,20 +3,20 @@
     "pins": [
       {
         "package": "swift-nio",
-        "repositoryURL": "https://github.com/apple/swift-nio.git",
+        "repositoryURL": "https://github.com/Guang1234567/swift-nio.git",
         "state": {
-          "branch": null,
-          "revision": "32760eae40e6b7cb81d4d543bb0a9f548356d9a2",
-          "version": "2.7.1"
+          "branch": "master",
+          "revision": "df46c621641612c842a1e5ddd7c037e39f44ca0d",
+          "version": null
         }
       },
       {
         "package": "swift-nio-ssl",
-        "repositoryURL": "https://github.com/apple/swift-nio-ssl.git",
+        "repositoryURL": "https://github.com/Guang1234567/swift-nio-ssl.git",
         "state": {
-          "branch": null,
-          "revision": "f5dd7a60ff56f501ff7bf9be753e4b1875bfaf20",
-          "version": "2.4.0"
+          "branch": "master",
+          "revision": "d0b983d52550569e6ba32d02e3a217bb19124b4e",
+          "version": null
         }
       }
     ]
